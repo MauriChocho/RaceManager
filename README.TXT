@@ -12,4 +12,58 @@ Primero comenzaremos trabajando
     en la modificacion y agregacion de datos y tambien visualizacion especifica de algunos datos gracias a un menu que iremos
     expandiendo a medida que avance el proyecto.
 
+ :hammer: Funcionalidades del programa
+
+
  
+---
+
+## ⚙️ Requisitos
+
+- Python 3.8 o superior
+- Git (opcional, para clonar el repo)
+
+---
+
+
+---
+### 🚀 Pasos para instalar y ejecutar
+
+
+1. **Verificar que Python esté instalado**
+
+ Antes de comenzar, abrí una terminal y ejecutá:
+
+python --version
+
+
+Si ves algo como Python 3.10.12, ya estás listo.
+Si no, descargalo desde: https://www.python.org/downloads/
+
+
+2. **Clonar el repositorio (o descargarlo manualmente)**
+
+git clone https://github.com/MauriChocho/RaceManager.git
+cd RaceManager
+
+
+3. **Creamos y activamos entorno virtual**
+
+Windows:
+python -m venv venv
+venv\Scripts\activate
+
+Linux / macOS:
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+4. **Instalamos dependencias**
+
+pip install -r requirements.txt
+
+
+5. **Ejecutamos programa**
+
+python main.py
