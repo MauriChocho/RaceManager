@@ -26,38 +26,59 @@ Primero comenzaremos trabajando
 ---
 
 
----
-### 🚀 Pasos para instalar y ejecutar
+## 🔧 Pasos para crear un entorno virtual
 
+### 1. Abrir la terminal o consola
+Asegúrate de tener Python instalado:
 
-1. **Verificar que Python esté instalado**
-
- Antes de comenzar, abrí una terminal y ejecutá:
-
+```bash
 python --version
+# o
+python3 --version
+```
 
+Si no está instalado, descárgalo desde [https://www.python.org](https://www.python.org).
 
-Si ves algo como Python 3.10.12, ya estás listo.
-Si no, descargalo desde: https://www.python.org/downloads/
+---
 
+### 2. Crear el entorno virtual
 
-2. **Clonar el repositorio (o descargarlo manualmente)**
+Ejecuta este comando dentro del directorio de tu proyecto:
 
-git clone https://github.com/MauriChocho/RaceManager.git
-cd RaceManager
+```bash
+python -m venv nombre_del_entorno
+```
 
+Ejemplo:
 
-3. **Creamos y activamos entorno virtual**
-
-Windows:
+```bash
 python -m venv venv
+```
+
+Esto creará una carpeta llamada `venv` con todas las herramientas necesarias para trabajar de forma aislada.
+
+---
+
+### 3. Activar el entorno virtual
+
+#### En Windows:
+```bash
 venv\Scripts\activate
+```
 
-Linux / macOS:
+Después de activarlo, verás algo así en la terminal:
+```
+(venv) C:\ruta\de\tu\proyecto>
+```
 
-python3 -m venv venv
+#### En macOS / Linux:
+```bash
 source venv/bin/activate
+```
 
+También verás `(venv)` al inicio de la línea de comandos.
+
+---
 
 4. **Instalamos dependencias**
 
