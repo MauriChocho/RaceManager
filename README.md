@@ -41,13 +41,6 @@ A medida que avance, se irán sumando nuevas funcionalidades para brindar un an�
 
 ---
 
-
- # 🐍 Funcionalidades del programa
-
-
- 
----
-
 ## ⚙️ Requisitos  
 
 - Python 3.8 o superior
