@@ -35,6 +35,7 @@ El proyecto se encuentra en una **fase inicial**, con foco en:
 
 - La lectura de archivos.
 - La visualización básica de datos.
+- Agregación y eliminación de corredores.
 - La estructura base de un menú que se irá expandiendo con el tiempo.
 
 A medida que avance, se irán sumando nuevas funcionalidades para brindar un análisis más completo y útil para quienes organizan o participan en eventos de running.
@@ -68,6 +69,7 @@ Si no está instalado, descárgalo desde [https://www.python.org](https://www.py
 ### 🔁 2. Clonar el repositorio (o descargarlo manualmente)
 
 git clone https://github.com/MauriChocho/RaceManager.git
+
 cd RaceManager
 
 ---
@@ -94,7 +96,7 @@ Esto creará una carpeta llamada `venv` con todas las herramientas necesarias pa
 
 #### En Windows:
 ```bash
-venv\Scripts\activate
+source raceManager/.venv/Scripts/activate
 ```
 
 Después de activarlo, verás algo así en la terminal:
@@ -120,3 +122,6 @@ pip install -r requirements.txt
 5. **Ejecutamos programa**
 
 python main.py
+
+-- Se proporiona unos datos DEMO para hacer pruebas del programa, estos datos pueden ser cargados desde el menú(opción 1)
+-- en caso de no tener datos propios aún.
